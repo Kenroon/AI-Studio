@@ -1,0 +1,7 @@
+{
+  "name": "GymTrack",
+  "description": "A minimalist, Apple-inspired gym tracker to manage routines, track sets/reps/weights, and export data. Features AI-powered image generation and editing for fitness inspiration.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
