@@ -3,6 +3,7 @@ export enum MuscleGroup {
   CHEST = 'Pecho',
   BACK = 'Espalda',
   LEGS = 'Piernas',
+  GLUTEOS = 'Glúteos',
   SHOULDERS = 'Hombros',
   ARMS = 'Brazos',
   CORE = 'Core'

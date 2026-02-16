@@ -14,8 +14,8 @@ export const Layout: React.FC<LayoutProps> = ({ children, activeTab, setActiveTa
   const accent = settings.accentColor;
 
   return (
-    <div className={`flex flex-col min-h-screen transition-colors duration-300 ${isDark ? 'bg-[#1c1c1e] text-white' : 'bg-[#f2f2f7] text-black'} pb-24`} style={{ '--accent-color': accent } as React.CSSProperties}>
-      <main className="flex-1 w-full max-w-lg mx-auto p-4">
+    <div className={`flex flex-col min-h-screen transition-colors duration-300 ${isDark ? 'bg-[#1c1c1e] text-white' : 'bg-[#f2f2f7] text-black'} pb-24 safe-top`} style={{ '--accent-color': accent } as React.CSSProperties}>
+      <main className="flex-1 w-full max-w-lg mx-auto p-4 pt-8">
         {children}
       </main>
       

@@ -46,7 +46,7 @@ export const DEFAULT_EXERCISES: Exercise[] = [
   { id: 'b19', name: 'Remo Invertido', muscleGroup: MuscleGroup.BACK },
   { id: 'b20', name: 'Rack Pulls', muscleGroup: MuscleGroup.BACK },
 
-  // Piernas (20)
+  // Piernas (18) - Sin glúteos
   { id: 'l1', name: 'Sentadilla con Barra Trasera', muscleGroup: MuscleGroup.LEGS },
   { id: 'l2', name: 'Sentadilla Frontal', muscleGroup: MuscleGroup.LEGS },
   { id: 'l3', name: 'Prensa de Piernas', muscleGroup: MuscleGroup.LEGS },
@@ -59,14 +59,26 @@ export const DEFAULT_EXERCISES: Exercise[] = [
   { id: 'l10', name: 'Elevación de Talones Sentado', muscleGroup: MuscleGroup.LEGS },
   { id: 'l11', name: 'Peso Muerto Rumano', muscleGroup: MuscleGroup.LEGS },
   { id: 'l12', name: 'Sentadilla Hack', muscleGroup: MuscleGroup.LEGS },
-  { id: 'l13', name: 'Hip Thrust con Barra', muscleGroup: MuscleGroup.LEGS },
   { id: 'l14', name: 'Peso Muerto Sumo', muscleGroup: MuscleGroup.LEGS },
   { id: 'l15', name: 'Sentadilla Goblet', muscleGroup: MuscleGroup.LEGS },
-  { id: 'l16', name: 'Abductores en Máquina', muscleGroup: MuscleGroup.LEGS },
-  { id: 'l17', name: 'Aductores en Máquina', muscleGroup: MuscleGroup.LEGS },
   { id: 'l18', name: 'Prensa Inclinada', muscleGroup: MuscleGroup.LEGS },
   { id: 'l19', name: 'Step-ups', muscleGroup: MuscleGroup.LEGS },
-  { id: 'l20', name: 'Puente de Glúteo', muscleGroup: MuscleGroup.LEGS },
+  { id: 'l21', name: 'Sissy Squat', muscleGroup: MuscleGroup.LEGS },
+  { id: 'l22', name: 'Nórdicos (Hamstrings)', muscleGroup: MuscleGroup.LEGS },
+
+  // Glúteos (12)
+  { id: 'g1', name: 'Hip Thrust con Barra', muscleGroup: MuscleGroup.GLUTEOS },
+  { id: 'g2', name: 'Puente de Glúteo', muscleGroup: MuscleGroup.GLUTEOS },
+  { id: 'g3', name: 'Patada de Glúteo en Polea', muscleGroup: MuscleGroup.GLUTEOS },
+  { id: 'g4', name: 'Abducción de Cadera en Máquina', muscleGroup: MuscleGroup.GLUTEOS },
+  { id: 'g5', name: 'Abducción de Cadera en Polea', muscleGroup: MuscleGroup.GLUTEOS },
+  { id: 'g6', name: 'Clamshells con Banda', muscleGroup: MuscleGroup.GLUTEOS },
+  { id: 'g7', name: 'Frog Pumps', muscleGroup: MuscleGroup.GLUTEOS },
+  { id: 'g8', name: 'Sentadilla Sumo con Mancuerna', muscleGroup: MuscleGroup.GLUTEOS },
+  { id: 'g9', name: 'Peso Muerto con Piernas Rígidas', muscleGroup: MuscleGroup.GLUTEOS },
+  { id: 'g10', name: 'Hiperextensiones (Enfoque Glúteo)', muscleGroup: MuscleGroup.GLUTEOS },
+  { id: 'g11', name: 'Caminata Lateral con Banda', muscleGroup: MuscleGroup.GLUTEOS },
+  { id: 'g12', name: 'Step-up Lateral', muscleGroup: MuscleGroup.GLUTEOS },
 
   // Hombros (20)
   { id: 's1', name: 'Press Militar con Barra', muscleGroup: MuscleGroup.SHOULDERS },
